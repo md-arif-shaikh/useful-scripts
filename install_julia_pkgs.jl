@@ -7,8 +7,11 @@ pkgList = [
     # Plotting
     "Plots",
     "CairoMakie",
+    "GLMakie",
     "AbstractPlotting",
-    "GR"
+    "GR",
+    "IJulia",
+    "LaTeXStrings"
 ]
 
 for pkg in pkgList
