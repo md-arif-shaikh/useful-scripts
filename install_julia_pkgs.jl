@@ -11,7 +11,12 @@ pkgList = [
     "AbstractPlotting",
     "GR",
     "IJulia",
-    "LaTeXStrings"
+    "LaTeXStrings",
+    # Notebook
+    "Pluto",
+    # astrophysical units
+    "UnitfulAstro",
+    "Unitful"
 ]
 
 for pkg in pkgList
