@@ -2,6 +2,7 @@ import Pkg
 
 pkgList = [
     # Solving odes
+    "OrdinaryDiffEq",
     "DifferentialEquations",
     "ODEInterfaceDiffEq",
     # Plotting
@@ -16,7 +17,13 @@ pkgList = [
     "Pluto",
     # astrophysical units
     "UnitfulAstro",
-    "Unitful"
+    "Unitful",
+    # Others
+    "StaticArrays",
+    # DataFrames
+    "DataFrames",
+    # Modeling Toolkit
+    "ModelingToolkit"
 ]
 
 for pkg in pkgList
