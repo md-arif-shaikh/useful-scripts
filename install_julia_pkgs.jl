@@ -15,9 +15,10 @@ pkgList = [
     "LaTeXStrings",
     # Notebook
     "Pluto",
-    # astrophysical units
+    # Units
     "UnitfulAstro",
     "Unitful",
+    "UnitfulAtomic",
     # Others
     "StaticArrays",
     # DataFrames
@@ -26,8 +27,5 @@ pkgList = [
     "ModelingToolkit"
 ]
 
-for pkg in pkgList
-    println("Installing $pkg")
-    Pkg.add(pkg)
-end
+Pkg.add.(pkgList)
     
